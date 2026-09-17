@@ -1,0 +1,41 @@
+{
+  "dataset": "UCI Daily and Sports Activities",
+  "doi": "10.24432/C5C59F",
+  "real_data": true,
+  "smoke_test": false,
+  "full_run": false,
+  "train_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "calibration_subjects": [
+    7
+  ],
+  "test_subjects": [
+    8
+  ],
+  "multi_activities": [
+    1,
+    2,
+    5,
+    6,
+    9,
+    12
+  ],
+  "binary_activities": [
+    5,
+    6
+  ],
+  "n_binary_trials_per_class": 500,
+  "n_multi_trials_per_class": 150,
+  "deltas": [
+    0.05,
+    0.01
+  ],
+  "max_steps": 100,
+  "seed": 20260914
+}

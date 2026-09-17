@@ -1,0 +1,8 @@
+........                                                                 [100%]
+8 passed in 1.08s
+01_binary_theory_benchmarks.ipynb: 10/10 executed, errors=[]
+02_record_envelope_lp_ladders.ipynb: 8/8 executed, errors=[]
+03_multihypothesis_extension.ipynb: 5/5 executed, errors=[]
+04_robustness_stress_tests.ipynb: 7/7 executed, errors=[]
+05_external_uci_har_replay.ipynb: 8/8 executed, errors=[]
+Package verification passed.

@@ -1,0 +1,5 @@
+Dataset: UCI Daily and Sports Activities
+Creators: Billur Barshan, Kerem Altun
+DOI: 10.24432/C5C59F
+Official UCI URL: https://archive.ics.uci.edu/dataset/256/daily
+Benchmark type: offline evidence-gated multi-sensor replay

@@ -1,0 +1,14 @@
+experiment,setting,metric,value,status
+binary_lower_bound,"delta=0.1,H0",mean_over_lower_bound,1.5023120762265993,reportable_core
+binary_lower_bound,"delta=0.05,H0",mean_over_lower_bound,1.3475711126027794,reportable_core
+binary_lower_bound,"delta=0.01,H0",mean_over_lower_bound,1.1157762968260438,reportable_core
+binary_lower_bound,"delta=0.001,H0",mean_over_lower_bound,1.0418671303690874,reportable_core
+rare_false_unlock,alpha=0.01,observed_false_unlock,0.0073,reportable_core
+rare_false_unlock,alpha=0.001,observed_false_unlock,0.0009,reportable_with_resolution_caveat
+rare_false_unlock,alpha=0.0001,observed_false_unlock,0.0,reportable_with_resolution_caveat
+lp_verification,300 random instances,max_abs_discrepancy,7.105427357601002e-15,reportable_core
+external_multisensor,delta=0.05 binary stairs,proposed_error,0.015,reportable_external
+external_multisensor,delta=0.05 binary stairs,oracle_error,0.015,reportable_external
+external_multisensor,delta=0.05 binary stairs,sensor_cost_reduction_fraction,0.5521099116781159,reportable_external
+external_multisensor,delta=0.01 binary stairs,proposed_error,0.019,negative_calibration_result
+external_multisensor_sixclass,walking_parking,class_error,0.8266666666666667,stress_test_limitation

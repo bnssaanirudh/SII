@@ -1,0 +1,20 @@
+experiment,notebook,formal_status,main_metric,main_paper
+Lower bound vs proposed/oracle,01,Theorem validation,E[tau] and E[tau]/LB,yes
+First-order convergence,01,Theorem validation,E[tau]/log(1/delta),yes
+Price of Certification surface,01,Theorem validation,PoC,yes
+Five difficulty regimes,01,Theorem validation,empirical vs theoretical PoC,yes
+False-unlock calibration,01,Theorem validation,P(false unlock) with CI,yes
+Terminal error under H0/H1,01,Theorem validation,P(error) with CI,yes
+Finite-confidence decomposition,01,Theorem validation,L_delta U_thr U_bd empirical tau,yes
+Non-monotone K examples,02,Structural validation,K vs Kbar,yes
+Random LP equality,02,Structural validation,|LP-closed form|,yes
+Ladder depth L=2/3/5/10,02,Theorem-aligned simulation,normalized tau,yes
+Epistemic trap/tiny KL,02,General proposition illustration,samples to certificate,supplement
+N=3/5/10 uniformly hardest,03,Exploratory appendix extension,error and tau,supplement
+N=3/5/10 alternative switching,03,Outside matched theorem,error and tau,supplement
+Gaussian increments,04,Outside bounded-increment theorem,error tau overshoot,supplement
+AR(1) dependence,04,Outside iid theorem,error false unlock,supplement
+Model misspecification,04,Outside known-model theorem,error false unlock,supplement
+UCI HAR binary replay,05,External instantiation,error tau modality use,yes
+UCI HAR six-class replay,05,External multihypothesis stress,error tau modality use,supplement
+PRISM contact replay,protocol,Optional future external study,error tau modality use,supplement

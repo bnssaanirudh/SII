@@ -1,0 +1,19 @@
+source,policy,true_class,n,error_rate,mean_tau,mean_Nweak,mean_Nstrong,cap_hit_rate
+mock fallback — NOT REPORTABLE,gated,1,100,0.7,54.08,40.93,13.15,0.0
+mock fallback — NOT REPORTABLE,gated,2,100,0.01,58.37,49.45,8.92,0.0
+mock fallback — NOT REPORTABLE,gated,3,100,0.34,80.51,60.89,19.62,0.0
+mock fallback — NOT REPORTABLE,gated,4,100,0.57,82.58,66.17,16.41,0.0
+mock fallback — NOT REPORTABLE,gated,5,100,0.04,54.47,45.05,9.42,0.0
+mock fallback — NOT REPORTABLE,gated,6,100,0.24,75.76,58.8,16.96,0.0
+mock fallback — NOT REPORTABLE,oracle,1,100,0.04,28.5,0.0,28.5,0.0
+mock fallback — NOT REPORTABLE,oracle,2,100,0.02,21.27,0.0,21.27,0.0
+mock fallback — NOT REPORTABLE,oracle,3,100,0.59,39.23,0.0,39.23,0.0
+mock fallback — NOT REPORTABLE,oracle,4,100,0.56,23.71,0.0,23.71,0.0
+mock fallback — NOT REPORTABLE,oracle,5,100,0.11,27.72,0.0,27.72,0.0
+mock fallback — NOT REPORTABLE,oracle,6,100,0.02,18.66,0.0,18.66,0.0
+mock fallback — NOT REPORTABLE,weak_only,1,100,1.0,83.75,83.75,0.0,0.01
+mock fallback — NOT REPORTABLE,weak_only,2,100,0.43,160.52,160.52,0.0,0.11
+mock fallback — NOT REPORTABLE,weak_only,3,100,0.77,162.22,162.22,0.0,0.16
+mock fallback — NOT REPORTABLE,weak_only,4,100,0.73,175.11,175.11,0.0,0.21
+mock fallback — NOT REPORTABLE,weak_only,5,100,0.05,94.58,94.58,0.0,0.0
+mock fallback — NOT REPORTABLE,weak_only,6,100,0.87,170.2,170.2,0.0,0.19

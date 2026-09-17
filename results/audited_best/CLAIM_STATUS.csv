@@ -1,0 +1,13 @@
+claim,status,evidence,recommended_action
+Record-envelope closed form equals LP optimum,STRONG,300 random LP instances; max |closed-numeric|=7.11e-15,Ready for main paper.
+Running-max approaches binary lower bound,STRONG,H0 mean/LB falls from 1.502 at delta=0.1 to 1.042 at delta=0.001 (2500 trials/config).,Main paper; rerun FULL_RUN for final camera-ready numbers.
+Anytime false-unlock control,STRONG,"alpha=0.1: obs=0.0880, 95%CI=[0.0805,0.0962]; alpha=0.05: obs=0.0424, 95%CI=[0.0372,0.0483]; alpha=0.01: obs=0.0088, 95%CI=[0.0066,0.0118]",Ready; full run desirable for alpha=.005/.001.
+Terminal delta-error control,MIXED,"All standard binary settings are near/below target except H0 at delta=.01: 0.0140, 95% CI [0.0101,0.0194].",Rerun FULL_RUN at delta=.01 and 1e-3 before claiming empirical calibration.
+Finite-confidence gap shrinks,STRONG,Empirical mean/LB drops 1.490 -> 1.060 as delta drops 0.1->0.001.,Main paper.
+Theoretical PoC matches empirical PoC,MIXED,4/5 regimes are within about 11%; large-gap relative deviation=48.2% at delta=.01.,Use 4 regimes in main or rerun large-gap at smaller delta; explain finite-delta deviation.
+General L-level ladder behavior,PROMISING,"Standard run uses 300 trials/L; normalized empirical complexity broadly tracks C_gate, but L=10 is visibly above target.",Supplement/main secondary; FULL_RUN recommended.
+Multihypothesis extension,EXPLORATORY,"60 trials/config. Uniform-hardest is stable; switching case has very large stopping times, especially N=10.",Supplement only; increase to 500 trials and refine switching benchmark before strong claims.
+Robustness to correlation,STRONG STRESS TEST,At corr=0.0 max error=0.011; at corr=.8 max error=0.259. Shows graceful-to-severe degradation outside iid assumptions.,Good supplementary robustness figure; explicitly label outside theorem.
+Robustness to misspecification,STRONG STRESS TEST,"2000 trials/config; max error rises to 0.022, false unlock to 0.135 at misspec=.10.",Good supplementary robustness table.
+Real UCI HAR binary replay,PROMISING,"300 trials/class: gated errors 0/0; weak-only error for class 3=0.04; gated mean tau=[3.1966666666666668, 4.3933333333333335].","Main external replay, with explicit offline-replay wording."
+Real UCI HAR six-class extension,WEAK/NEGATIVE,25 trials/class; error rates range 0.00-0.84; class 6 error=0.84.,Do not use as positive main result. Present as limitation or redesign/rerun.

@@ -1,0 +1,23 @@
+{
+  "run_mode": "standard",
+  "har_source": "mock fallback \u2014 NOT REPORTABLE",
+  "output_files": [
+    "closure_rare_terminal_error.csv",
+    "closure_rare_false_unlock.csv",
+    "closure_rare_terminal_error.png",
+    "closure_extreme_poc_convergence.csv",
+    "closure_extreme_poc_convergence.png",
+    "closure_multihypothesis_high_stats.csv",
+    "closure_multihypothesis_confusion.csv",
+    "closure_multihypothesis_error.png",
+    "closure_stopping_cap_sensitivity.csv",
+    "closure_stopping_cap_sensitivity.png",
+    "closure_threshold_sensitivity.csv",
+    "closure_threshold_sensitivity.png",
+    "closure_uci_har_sixclass_trials.csv",
+    "closure_uci_har_sixclass_summary.csv",
+    "closure_uci_har_gated_confusion.csv",
+    "closure_uci_har_confusion.png",
+    "closure_claim_status.csv"
+  ]
+}

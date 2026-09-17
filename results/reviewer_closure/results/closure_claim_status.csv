@@ -1,0 +1,7 @@
+claim,experiment,mode,key_result,status
+Terminal-error calibration,rare_event_calibration,standard,max observed error=0.0104,needs full run
+Anytime false-unlock control,rare_event_calibration,standard,max observed/target=0.900,needs full run
+Extreme-gap PoC approaches theory,extreme_poc_convergence,standard,"smallest-delta empirical=19.062, theory=27.864",evaluate convergence
+Multihypothesis extension behavior,multihypothesis_high_stats,standard,max gated H0 error=0.050,exploratory only
+No stopping-cap artifact,stopping_cap_sensitivity,standard,min cap-hit=0,needs full run
+Six-class external replay,sixclass_replay_high_stats,standard,gated macro error=0.317,external extension; inspect per-class failures

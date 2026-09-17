@@ -1,0 +1,46 @@
+Evidence-Gated Sequential Learning — complete reproducibility package
+Generated: 2026-09-16
+
+Top-level contents:
+CHAT_STAGE_MAP.md
+FILE_MANIFEST_SHA256.csv
+HEADLINE_RESULTS.csv
+NOTEBOOK_TO_RESULTS_MAP.csv
+PACKAGE_CONTENTS.txt
+README_FIRST.md
+RESULTS_SUMMARY.md
+code/EXPERIMENTAL_PROTOCOL.md
+code/EXPERIMENT_MATRIX.csv
+code/ORIGINAL_SUITE_README.md
+code/PRISM_REPLAY_PROTOCOL.md
+code/RESULTS_MANIFEST.md
+code/make_notebooks.py
+code/requirements.txt
+code/run_all.py
+code/verify_package.py
+historical_raw_results/033df69a-2838-465b-81dc-4074aec1f931.zip
+historical_raw_results/23f217b8-43e6-4d46-be89-f392b2869bd0.zip
+historical_raw_results/2d43bbfe-4a38-46af-a3e3-9305e4f8b90d.zip
+historical_raw_results/305ced79-d613-47de-b122-191ad0e6b9b9.zip
+historical_raw_results/4e60dd19-a549-40b1-9f6f-686ee0b0d07c.zip
+historical_raw_results/8153dab2-2b86-4e09-93ba-f104fa2e208d.zip
+historical_raw_results/all_experiment_results.zip
+historical_raw_results/e499ebc1-05ee-4316-8c32-4b5a6e6de95d.zip
+original_packages/Gated_Sequential_Testing_Best_Available_Results_Audit.zip
+original_packages/Gated_Sequential_Testing_Experimental_Benchmark_Suite.zip
+original_packages/Notebook_06_Reviewer_Closure_Verified.zip
+original_packages/Notebook_07_External_Multisensor_Benchmark_Verified.zip
+qa_and_audits/FINAL_UPDATE_AUDIT.md
+qa_and_audits/NOTEBOOK06_README.txt
+qa_and_audits/NOTEBOOK07_README.md
+qa_and_audits/NOTEBOOK07_REAL_DATA_AUDIT.md
+qa_and_audits/NOTEBOOK07_VERIFICATION_REPORT.txt
+qa_and_audits/ORIGINAL_SUITE_VERIFICATION_REPORT.txt
+qa_and_audits/RESULTS_AUDIT.md
+qa_and_audits/environment_versions.txt
+qa_and_audits/notebook_parse_check.txt
+qa_and_audits/unit_test_output.txt
+qa_and_audits/verify_package_output.txt
+qa_and_audits/zip_integrity.txt
+smoke_only/README.md
+smoke_only/reviewer_closure_results_smoke_verified.zip

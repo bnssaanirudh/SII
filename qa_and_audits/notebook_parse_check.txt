@@ -1,0 +1,7 @@
+01_binary_theory_benchmarks.ipynb: code_cells=10, markdown_cells=8, total_cells=18
+02_record_envelope_lp_ladders.ipynb: code_cells=8, markdown_cells=6, total_cells=14
+03_multihypothesis_extension.ipynb: code_cells=5, markdown_cells=4, total_cells=9
+04_robustness_stress_tests.ipynb: code_cells=7, markdown_cells=6, total_cells=13
+05_external_uci_har_replay.ipynb: code_cells=8, markdown_cells=6, total_cells=14
+06_reviewer_closure_experiments.ipynb: code_cells=10, markdown_cells=9, total_cells=19
+07_real_external_multisensor_gating.ipynb: code_cells=11, markdown_cells=2, total_cells=13

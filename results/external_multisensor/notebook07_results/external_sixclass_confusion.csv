@@ -1,0 +1,7 @@
+,sitting,standing,ascending_stairs,descending_stairs,walking_parking,treadmill_run
+sitting,150,0,0,0,0,0
+standing,0,150,0,0,0,0
+ascending_stairs,0,0,150,0,0,0
+descending_stairs,0,0,0,149,1,0
+walking_parking,0,0,0,0,26,124
+treadmill_run,0,0,0,0,0,150

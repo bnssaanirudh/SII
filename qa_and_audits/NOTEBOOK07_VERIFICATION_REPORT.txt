@@ -1,0 +1,38 @@
+Notebook 07 verification report
+===============================
+
+Artifact:
+07_real_external_multisensor_gating.ipynb
+
+Standalone smoke execution:
+- Working directory started empty except for the notebook.
+- Environment: SMOKE_TEST=1
+- Code cells executed: 11/11
+- Runtime errors: 0
+- Final results ZIP created successfully.
+- Files in results ZIP: 16
+
+Structural sanity checks:
+- held_out_subject: PASS
+- nested_sensor_ladder: PASS
+- all_methods_present_binary: PASS
+- all_methods_present_multiclass: PASS
+
+Real-data note:
+The execution environment used for verification could not download the
+162.9 MB UCI Daily and Sports Activities archive. Therefore SMOKE_TEST
+uses a deterministic schema-matched surrogate ONLY to verify notebook
+execution. Those smoke numbers are not reportable empirical results.
+
+In a normal Colab/Jupyter run, leave SMOKE_TEST unset. The notebook
+downloads the official UCI archive:
+https://archive.ics.uci.edu/static/public/256/daily%2Band%2Bsports%2Bactivities.zip
+Dataset DOI: 10.24432/C5C59F
+
+For publication-scale execution:
+    import os
+    os.environ["FULL_RUN"] = "1"
+
+Then restart/run all cells. The last cell creates:
+notebook07_external_results.zip
+and automatically downloads it in Google Colab.
