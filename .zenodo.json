@@ -1,0 +1,22 @@
+{
+  "title": "Evidence-Gated Sequential Learning (SII): Reproducibility Suite",
+  "description": "Reproducibility materials for Gated Sequential Learning: Certification Ladders for Binary Identification under Endogenous Experiment Availability. The release contains theorem-matched synthetic benchmarks, record-envelope LP verification, rare-event false-unlock calibration, robustness stress tests, and two offline UCI sensing replays. The sharp theory is binary and known-model; multiclass and cross-subject experiments are explicitly treated as exploratory or robustness analyses.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "Badampudi, Agasthya Anirudh", "affiliation": "Vellore Institute of Technology (VIT)"},
+    {"name": "Bogineni, Harshita", "affiliation": "Vellore Institute of Technology (VIT)"},
+    {"name": "Subramaniyaswamy, V", "affiliation": "Vellore Institute of Technology (VIT)"}
+  ],
+  "keywords": [
+    "sequential hypothesis testing",
+    "active learning",
+    "controlled sensing",
+    "anytime-valid inference",
+    "evidence-gated learning",
+    "fixed-confidence identification"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://github.com/bnssaanirudh/SII", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}
