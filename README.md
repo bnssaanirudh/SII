@@ -12,9 +12,9 @@ The sharp theory is for binary fixed-confidence identification with irreversible
 4. `04_robustness_stress_tests.ipynb`
 5. `05_external_uci_har_replay.ipynb`
 6. `06_reviewer_closure_experiments.ipynb`
-7. `07_real_external_multisensor_gating_calibrated.ipynb`
+7. `07_real_external_multisensor_gating.ipynb`
 
-The revised Notebook 07 uses subjects 1–6 for fitting, reserves subject 7 for a pre-specified plug-in threshold-calibration follow-up, and keeps subject 8 as untouched test data. The manuscript retains the original uncalibrated subject-8 results for transparency; it does not post-hoc tune on subject 8.
+A separate `07_subject7_calibration_followup.py` routine uses subjects 1–6 for fitting, subject 7 only for pre-specified plug-in threshold selection, and subject 8 as untouched evaluation data. The manuscript retains the original uncalibrated subject-8 results for transparency; it does not post-hoc tune on subject 8.
 
 ## Headline external result
 On UCI Daily and Sports Activities, ascending-vs-descending stairs at nominal `delta=0.05`:
@@ -43,6 +43,11 @@ pip install -r code/requirements.txt
 pytest code/tests/test_core.py
 cd code
 python run_all.py --mode standard
+```
+
+For the calibration follow-up, execute Notebook 07 first and then run:
+```python
+%run -i code/notebooks/07_subject7_calibration_followup.py
 ```
 
 The publication-scale configuration is available through `python run_all.py --mode full`.
