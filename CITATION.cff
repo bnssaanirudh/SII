@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark suite, please cite the accompanying manuscript."
+title: "Evidence-Gated Sequential Learning (SII): Reproducibility Suite"
+type: software
+version: 1.0.0
+date-released: 2026-09-17
+authors:
+  - family-names: Badampudi
+    given-names: Agasthya Anirudh
+    email: badampudi.agasthya2023@vitstudent.ac.in
+  - family-names: Bogineni
+    given-names: Harshita
+    email: harshita.bogineni2023@vitstudent.ac.in
+  - family-names: Subramaniyaswamy
+    given-names: V
+    email: subramaniyaswamy.v@vit.ac.in
+repository-code: "https://github.com/bnssaanirudh/SII"
+license: MIT
+keywords:
+  - sequential hypothesis testing
+  - active learning
+  - controlled sensing
+  - anytime-valid inference
+  - evidence-gated learning
+  - fixed-confidence identification
